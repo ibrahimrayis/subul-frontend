@@ -7,7 +7,9 @@ A modern, responsive React-based admin dashboard for the Subul system built with
 ## 🚀 Features
 
 - **Modern Tech Stack**: Built with React 18, TypeScript, and Vite for blazing-fast development
-- **Branded Design**: Gradient color theme inspired by the Subul logo (#667eea to #764ba2)
+- **Branded Design**: Gradient color theme inspired by the Subul logo (orange gradient)
+- **Theme Switcher**: Toggle between light and dark themes for better user experience
+- **Language Switcher**: Support for English and Arabic languages
 - **Responsive Layout**: Mobile-first design that works on all devices
 - **Modular Architecture**: Organized page components for easy maintenance
 - **API Ready**: Pre-configured service layer for backend integration
@@ -28,6 +30,35 @@ The application includes the following modular pages:
 - **Payments** - Payment transaction management
 - **Notifications** - System notifications and alerts
 - **Login** - Authentication page
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](src/assets/screenshot-dashboard.png)
+
+### Users
+![Users](src/assets/screenshot-users.png)
+
+### Merchants
+![Merchants](src/assets/screenshot-merchants.png)
+
+### Products
+![Products](src/assets/screenshot-products.png)
+
+### Orders
+![Orders](src/assets/screenshot-orders.png)
+
+### Delivery
+![Delivery](src/assets/screenshot-delivery.png)
+
+### Payments
+![Payments](src/assets/screenshot-payments.png)
+
+### Notifications
+![Notifications](src/assets/screenshot-notifications.png)
+
+### Login
+![Login](src/assets/screenshot-login.png)
 
 ## 🛠️ Installation
 
@@ -89,18 +120,18 @@ npm run lint
 
 ## 🎨 Branding
 
-The application uses a gradient color theme based on the Subul logo:
+The application uses a gradient color theme based on the Subul logo with an orange gradient:
 
-- **Primary Start**: `#667eea`
-- **Primary End**: `#764ba2`
-- **Gradient**: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
+- **Primary Gradient**: Orange gradient theme inspired by the Subul logo
+- **Theme**: Modern, vibrant design that reflects the Subul brand identity
+- **Color Scheme**: Carefully selected colors that complement the orange gradient
 
 ### Assets
 
 - **Logo**: Located at `src/assets/logo.svg`
 - **Favicon**: Located at `public/favicon.svg`
 
-> **Note**: The current logo and favicon are placeholders. Replace them with your actual Subul branding assets for production use.
+> **Note**: The branding reflects the Subul logo's distinctive orange gradient theme, creating a cohesive and recognizable visual identity throughout the application.
 
 ## 🔌 API Integration
 
