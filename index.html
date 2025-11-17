@@ -2,13 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subul - Dashboard</title>
+    <title>Subul POS - Supermarket</title>
+    <meta name="description" content="Subul Point-of-Sale (POS) System for Supermarkets" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        --subul-orange: #FF7A28;
+        --subul-sunset: #FF6E4A;
+        --subul-peach: #FF9A57;
+        --subul-amber: #FFA63E;
+        --white: #FFFFFF;
+        --graphite: #2C2C2C;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: var(--white);
+        color: var(--graphite);
+        min-height: 100vh;
+      }
+      .brand-header {
+        background: linear-gradient(90deg, #FF7A28 0%, #FF6E4A 50%, #FFA63E 100%);
+        color: var(--white);
+        padding: 1.5rem 0;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        box-shadow: 0 2px 8px rgba(44,44,44,0.05);
+      }
+      @media (max-width: 600px) {
+        .brand-header {
+          font-size: 1.2rem;
+          padding: 1rem 0;
+        }
+      }
+    </style>
     <script type="module" crossorigin src="/assets/index-DpTWU41H.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-_QX7-gAA.css">
   </head>
   <body>
+    <div class="brand-header" role="banner" aria-label="Subul POS Supermarket">
+      Subul POS &mdash; Supermarket
+    </div>
     <div id="root"></div>
+    <!-- Vite will inject the correct script in dev and build -->
   </body>
 </html>
